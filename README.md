@@ -24,7 +24,7 @@ Ensure you have the following tools installed on your development machine:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/taher-chabra/personal-portfolio.git
+git clone https://github.com/Taher-Chabra/personal-portfolio.git
 cd portfolio
 ```
 
