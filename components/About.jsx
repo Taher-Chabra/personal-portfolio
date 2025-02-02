@@ -26,40 +26,40 @@ export default function About() {
       <section className="flex flex-col-reverse lg:flex-row lg:p-6 p-4 gap-6 mt-6">
         {/* left Section */}
         <section className="w-full p-2 rounded-xl py-6 lg:py-0.5 shadow-sm flex  flex-col max-md:gap-6 card lg:p-4">
-          <section className="flex items-center gap-4 h-1/5 ">
+          <section className="flex items-center gap-4 h-[4.5rem] xs:mb-4">
             <hr className="h-1 w-16 bg-gray-600 rounded-full" />
             <p className="text-xl lg:text-2xl font-medium">
               &lt;My Skills &nbsp;/&gt;
             </p>
           </section>
-          <section className="p-2 flex gap-6 justify-evenly flex-wrap h-1/3 text-lg">
+          
+          <section className="mx-6 grid grid-cols-3 xs:grid-cols-4 gap-6 gap-y-20">
             <section className="flex justify-center items-center flex-col">
-              <FaHtml5 size={50} className=" text-orange-500" />
+              <FaHtml5 size={45} className=" text-orange-500" />
               HTML
             </section>
             <section className="flex justify-center items-center flex-col">
-              <IoLogoCss3 size={50} className=" text-blue-500" />
+              <IoLogoCss3 size={45} className=" text-blue-500" />
               CSS
             </section>
             <section className="flex justify-center items-center flex-col">
-              <RiJavascriptFill size={50} className=" text-yellow-500" />
+              <RiJavascriptFill size={45} className=" text-yellow-500" />
               Javascript
             </section>
             <section className="flex justify-center items-center flex-col">
-              <BiLogoTypescript size={50} className="text-gray-900" />
+              <BiLogoTypescript size={45} className="text-gray-900" />
               Typescript
             </section>
-          </section>
-          <section className="p-2 flex gap-6 justify-evenly flex-wrap h-1/3 text-lg">
+
             <section className="flex justify-center items-center flex-col">
-              <FaReact size={50} className=" text-sky-500" /> 
+              <FaReact size={45} className=" text-sky-500" /> 
               ReactJS
             </section>
             <section className="flex justify-center items-center flex-col">
               <section>
                 <svg
-                  width="50px"
-                  height="50px"
+                  width="45px"
+                  height="45px"
                   viewBox="0 0 256 256"
                   preserveAspectRatio="xMidYMid"
                 >
@@ -81,8 +81,7 @@ export default function About() {
               <RiBootstrapFill size={45} className=" text-white bg-violet-600 rounded-full p-1" />
               Bootstrap
             </section>
-          </section>
-          <section className="p-2 flex gap-6 justify-evenly flex-wrap h-1/3 text-lg">
+
             <section className="flex justify-center items-center flex-col">
               <FaNodeJs size={45} className=" text-green-500" /> NodeJs
             </section>
@@ -109,8 +108,7 @@ export default function About() {
               <SiMysql size={45} className=" text-cyan-500" />
               MySQL
             </section>
-          </section>
-          <section className="p-2 flex gap-6 justify-evenly flex-wrap h-1/3 text-lg">
+
             <section className="flex justify-center items-center flex-col">
               <LiaGit size={45} className=" text-orange-500" />
               Git
