@@ -11,7 +11,7 @@ import bgImg from "../public/hero/bg.png";
 
 const Hero = () => {
   const handleDownloadResume = () => {
-    const resumeUrl = "/public/resume/Taher-Chabra-Resume.pdf";
+    const resumeUrl = "/resume/Taher-Chabra-Resume.pdf";
     window.open(resumeUrl, "_blank");
   };
   return (

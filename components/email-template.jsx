@@ -17,23 +17,6 @@ export const EmailTemplate = ({ messageData, name, email }) => (
           <p style={{ padding: "8px" }}>{messageData}</p>
         </p>
         <h4 style={{ color: "#6c757d" }}>Email: {email}</h4>
-        {/* <a
-          href="https://taherchabra.tech"
-          style={{
-            display: "inline-block",
-            color: "#fff",
-            backgroundColor: "#007bff",
-            padding: "10px 20px",
-            textDecoration: "none",
-            borderRadius: "3px",
-          }}
-        >
-          Visit Portfolio
-        </> */}
-        {/* <p style={{ fontSize: "0.875rem", color: "#6c757d" }}>
-          Thank you for your time,
-        </p>
-        <p style={{ fontSize: "0.875rem", color: "#6c757d" }}>Taher Chabra</p> */}
       </section>
       <p style={{ textAlign: "center", color: "#6c757d" }}>
         © {new Date().getFullYear()} Taher Chabra. All rights reserved.

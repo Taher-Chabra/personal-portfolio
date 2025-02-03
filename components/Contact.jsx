@@ -38,9 +38,7 @@ const Contact = () => {
       if (!response.ok) {
         throw new Error("There was a problem with the fetch operation.");
       }
-      // const data = await response.json();
-      // console.log(data);
-      // Optionally, clear form fields after successful submission
+      
       setFormData({
         name: "",
         email: "",
@@ -51,7 +49,8 @@ const Contact = () => {
       console.error("There was a problem with the fetch operation:", error);
       toast.error("Message not sent. Please try again.");
     } finally {
-      setSubmitting(false); // Set submitting back to false after submission is complete
+      // Set submitting back to false after submission is complete
+      setSubmitting(false);
     }
   };
 
@@ -68,7 +67,6 @@ const Contact = () => {
       <section className="flex justify-center items-center gap-12">
         <section className="p-1 lg:w-1/3 max-w-fit flex items-center max-lg:hidden">
           <Image
-            className=""
             src="/contact/email.svg"
             alt="email"
             priority={false}
