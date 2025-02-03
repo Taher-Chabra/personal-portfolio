@@ -2,7 +2,6 @@
 import Image from "next/image";
 import { RiLinkedinFill } from "react-icons/ri";
 import { PiGithubLogoFill } from "react-icons/pi";
-import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { IoDocumentText } from "react-icons/io5";

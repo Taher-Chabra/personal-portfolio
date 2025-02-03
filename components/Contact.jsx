@@ -22,7 +22,8 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setSubmitting(true); // Set submitting to true to disable the submit button during form submission
+    // Set submitting to true to disable the submit button during form submission
+    setSubmitting(true);
     try {
       const response = await fetch("/api/send", {
         method: "POST",
