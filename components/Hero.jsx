@@ -10,10 +10,7 @@ import Link from "next/link";
 import bgImg from "../public/hero/bg.png";
 
 const Hero = () => {
-  const handleDownloadResume = () => {
-    const resumeUrl = "/resume/Taher-Chabra-Resume.pdf";
-    window.open(resumeUrl, "_blank");
-  };
+  
   return (
     <main
       className="min-h-[calc(100svh-5.03rem)] md:flex-row flex flex-col-reverse justify-center items-center gap-4"
@@ -70,11 +67,12 @@ const Hero = () => {
                 <span className="ml-1.5 md:text-lg">Contact</span>
               </button>
             </Link>
-
-            <button className="flex items-center px-3 py-2 bg-red-700 hover:bg-red-800 rounded-md text-white outline-none focus:ring-1 shadow-lg transform active:scale-y-90 transition-transform" onClick={handleDownloadResume} aria-label="Resume Download Button">
-              <IoDocumentText size={22} />
-              <span className="ml-1.5 md:text-lg">Resume</span>
-            </button>
+            <a href="/resume/Taher-Chabra-Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <button className="flex items-center px-3 py-2 bg-red-700 hover:bg-red-800 rounded-md text-white">
+                <IoDocumentText size={22} /> 
+                <span className="ml-1.5 md:text-lg">Resume</span> 
+              </button>
+            </a>
           </section>
         </section>
       </section>
