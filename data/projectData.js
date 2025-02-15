@@ -6,7 +6,7 @@ export const projectData = [
             "Talktime App is a web application designed to facilitate seamless communication between users. It offers features such as video conferencing and instant messaging.",
         badges: ["Next.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "Socket.io", "Twilio Programmable Video API"],
         github: "https://github.com/Taher-Chabra/talktime-app",
-        live: "https://talktime-app.onrender.com/",
+        live: "https://talktime.taherchabra.tech/",
     },
     {
         title: "Demo Landing Page",
